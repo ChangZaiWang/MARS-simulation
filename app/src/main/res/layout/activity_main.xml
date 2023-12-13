@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txt_mars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application Rating Scale"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036" />
+
+        <TextView
+            android:id="@+id/txt_sec_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SECTION A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_mars" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_content"
+            android:layout_width="360dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:text="Engagement – fun, interesting, customisable, interactive (e.g. sends alerts, messages, reminders, feedback, enables sharing), well-targeted to audience"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_q1"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="1.  Entertainment: Is the app fun/entertaining to use? Does it use any strategies to increase engagement through entertainment (e.g. through gamification)?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_content" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_A_q1"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q1">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q1_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q1_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q1_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q1_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q1_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_A_q1_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_A_q1" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_q2"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="2.  Interest: Is the app interesting to use? Does it use any strategies to increase engagement by presenting its content in an interesting way?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q1_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_A_q2"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q2">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q2_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q2_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q2_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q2_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q2_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_A_q2_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_A_q2" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_q3"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="3.  Customisation: Does it provide/retain all necessary settings/preferences for apps features (e.g. sound, content, notifications, etc.)?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q2_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_A_q3"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q3">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q3_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q3_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q3_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q3_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q3_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_A_q3_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_A_q3" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_q4"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:text="4.  Interactivity: Does it allow user input, provide feedback, contain prompts (reminders, sharing options, notifications, etc.)? Note: these functions need to be customisable and not overwhelming in order to be perfect."
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q3_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_A_q4"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q4">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q4_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q4_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q4_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q4_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q4_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_A_q4_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_A_q4" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_q5"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="5.  Target group: Is the app content (visual information, language, design) appropriate for your target audience?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q4_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_A_q5"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q5">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q5_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q5_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q5_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q5_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_A_q5_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_A_q5_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_A_q5" />
+
+
+        <TextView
+            android:id="@+id/txt_sec_A_mean_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="A. mean score:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_sec_A_mean_score_value"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q5_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_A_mean_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_q5_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="SECTION B"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_A_mean_score_value" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_content"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:text="Functionality – app functioning, easy to learn, navigation, flow logic, and gestural design of app"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_q6"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="6.  Performance: How accurately/fast do the app features (functions) and components (buttons/menus) work?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_content" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_B_q6"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q6">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q6_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q6_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q6_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q6_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q6_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_B_q6_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_B_q6" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_q7"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="7.  Ease of use: How easy is it to learn how to use the app; how clear are the menu labels/icons and instructions?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q6_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_B_q7"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q7">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q7_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q7_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q7_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q7_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q7_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_B_q7_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_B_q7" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_q8"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="8.  Navigation: Is moving between screens logical/accurate/appropriate/ uninterrupted; are all necessary screen links present?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q7_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_B_q8"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q8">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q8_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q8_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q8_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q8_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q8_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_B_q8_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_B_q8" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_q9"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="9. Gestural design: Are interactions (taps/swipes/pinches/scrolls) consistent and intuitive across all components/screens?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q8_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_B_q9"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q9">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q9_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q9_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q9_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q9_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_B_q9_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_B_q9_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_B_q9" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_mean_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="B. mean score:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_sec_B_mean_score_value"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q9_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_B_mean_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_q9_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="SECTION C"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_B_mean_score_value" />
+
+        <TextView
+            android:id="@+id/txt_sec_C_content"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:text="Aesthetics – graphic design, overall visual appeal, colour scheme, and stylistic consistency"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C" />
+
+        <TextView
+            android:id="@+id/txt_sec_C_q10"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="10.  Layout: Is arrangement and size of buttons/icons/menus/content on the screen appropriate or zoomable if needed?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_content" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_C_q10"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q10">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q10_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q10_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q10_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q10_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q10_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_C_q10_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_C_q10" />
+
+        <TextView
+            android:id="@+id/txt_sec_C_q11"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="11.  Graphics: How high is the quality/resolution of graphics used for buttons/icons/menus/content?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q10_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_C_q11"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q11">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q11_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q11_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q11_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q11_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q11_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_C_q11_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_C_q11" />
+
+        <TextView
+            android:id="@+id/txt_sec_C_q12"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="12.  Visual appeal: How good does the app look?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q11_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_C_q12"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q12">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q12_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q12_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q12_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q12_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_C_q12_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_C_q12_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_C_q12" />
+
+        <TextView
+            android:id="@+id/txt_sec_C_mean_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="C. mean score:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_sec_A_mean_score_value"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q12_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_C_mean_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_q12_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="SECTION D"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_C_mean_score_value" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_content"
+            android:layout_width="360dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:text="Information – Contains high quality information (e.g. text, feedback, measures, references) from a credible source. Select N/A if the app component is irrelevant."
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q13"
+            android:layout_width="331dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:text="13.  Accuracy of app description (in app store): Does app contain what is described?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_content" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q13"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q13">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q13_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q13_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q13_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q13_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q13_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q13_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q13" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q14"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="14.  Goals: Does app have specific, measurable and achievable goals (specified in app store description or within the app itself)?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q13_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q14"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q14">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q14_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q14_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q14_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q14_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q14_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q14_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Description does not list goals, or app goals are irrelevant to research goal (e.g. using a game for educational purposes)"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q14" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q15"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="15.  Quality of information: Is app content correct, well written, and relevant to the goal/topic of the app?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q14_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q15"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q15">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q15_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q15_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q15_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q15_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q15_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q15_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="There is no information within the app"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q15" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q16"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="16.  Quantity of information: Is the extent coverage within the scope of the app; and comprehensive but concise?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q15_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q16"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q16">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q16_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q16_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q16_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q16_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q16_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q16_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="There is no information within the app"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q16" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q17"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="17.  Visual information: Is visual explanation of concepts – through charts/graphs/images/videos, etc. – clear, logical, correct?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q16_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q17"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q17">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q17_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q17_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q17_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q17_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q17_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q17_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="There is no visual information within the app (e.g.it only contains audio, or text)"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q17" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q18"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="18.  Credibility: Does the app come from a legitimate source (specified in app store description or within the app itself)?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q17_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q18"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q18">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q18_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q18_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q18_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q18_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q18_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q18_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q18" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_q19"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="19.  Evidence base: Has the app been trialled/tested; must be verified by evidence (in published scientific literature)?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q18_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_D_q19"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q19">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q19_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q19_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q19_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q19_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_D_q19_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_D_q19_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The app has not been trialled/tested"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_D_q19" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_mean_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="D. mean score:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_sec_A_mean_score_value"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q19_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_D_mean_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_q19_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="SECTION E"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_D_mean_score_value" />
+
+        <TextView
+            android:id="@+id/txt_sec_E_q20"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="20.  Would you recommend this app to people who might benefit from it?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_E_q20"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q20">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q20_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q20_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q20_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q20_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q20_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_E_q20_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_E_q20" />
+
+        <TextView
+            android:id="@+id/txt_sec_E_q21"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="21.  How many times do you think you would use this app in the next 12 months if it was relevant to you?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q20_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_E_q21"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q21">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q21_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q21_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q21_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q21_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q21_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_E_q21_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_E_q21" />
+
+        <TextView
+            android:id="@+id/txt_sec_E_q22"
+            android:layout_width="331dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:text="22.  Would you pay for this app?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q21_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_E_q22"
+            android:layout_width="144dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q22">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q22_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q22_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q22_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_E_q22_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_E_q22" />
+
+        <TextView
+            android:id="@+id/txt_sec_E_q23"
+            android:layout_width="331dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:text="23.  What is your overall star rating of the app?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q22_opt_desc" />
+
+        <RadioGroup
+            android:id="@+id/radiogrp_sec_E_q23"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q23">
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q23_o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q23_o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q23_o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q23_o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_sec_E_q23_o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_sec_E_q23_opt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogrp_sec_E_q23" />
+
+        <TextView
+            android:id="@+id/txt_sec_E_mean_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="E. mean score:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_sec_A_mean_score_value"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q23_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_E_mean_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_q23_opt_desc" />
+
+        <TextView
+            android:id="@+id/txt_sec_AD_mean_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="A-D. mean score:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_sec_A_mean_score_value"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_mean_score" />
+
+        <TextView
+            android:id="@+id/txt_sec_AD_mean_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sec_E_mean_score" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
